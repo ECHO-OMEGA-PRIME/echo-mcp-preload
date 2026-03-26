@@ -1,0 +1,19 @@
+{
+  "name": "echo-mcp-preload",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.65.0",
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "agents": "^0.0.50",
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "zod": "^3.24.0"
+  }
+}
